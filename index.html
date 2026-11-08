@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KOREHAN 코리한 | Korean Sauce</title>
+<meta name="description" content="코리한 한식소스 3종. 된장찌개소스, 만능조림간장, 만능매콤양념. KOREHAN Korean sauces for global buyers.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="dry" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence type="fractalNoise" baseFrequency=".008 .3" numOctaves="2" seed="7" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 4.6"/><feComposite in="SourceGraphic" operator="in"/></filter></svg>
+
+<header class="top">
+ <a class="brand" href="#main"><img src="img/logo.png" alt="KOREHAN 코리한"></a>
+ <nav id="nav" aria-label="메뉴">
+  <a href="#story"><span class="ko">브랜드</span><span class="en">Story</span></a>
+  <a href="#history"><span class="ko">연혁</span><span class="en">History</span></a>
+  <a href="#sauces"><span class="ko">소스 3종</span><span class="en">Sauces</span></a>
+  <a href="#use"><span class="ko">활용 요리</span><span class="en">Recipes</span></a>
+  <a href="#buyers"><span class="ko">바이어</span><span class="en">Buyers</span></a>
+ </nav>
+ <button class="lang" id="lang" type="button" aria-label="언어 전환 Switch language">EN</button>
+ <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="메뉴 열기"><i></i><i></i></button>
+</header>
+
+<main id="main">
+ <section class="hero" id="hero" aria-roledescription="carousel" aria-label="소스 3종">
+  <div class="tint" id="tint"></div>
+  <div class="stage" id="stage">
+   <button class="pack" data-i="0" type="button"><img src="img/cut_d.png" alt="된장찌개소스 120g"></button>
+   <button class="pack" data-i="1" type="button"><img src="img/cut_g.png" alt="만능조림간장 500g"></button>
+   <button class="pack" data-i="2" type="button"><img src="img/cut_m.png" alt="만능매콤양념 500g"></button>
+  </div>
+  <div class="copy">
+   <p class="slogan ko">코리아의 맛을 리얼하게 재현하여 한식 본연의 맛을 세계에 전하자</p>
+   <p class="slogan en">Recreating the real taste of Korea. True Korean flavor for the world.</p>
+   <h1 class="name" id="heroName" aria-live="polite"></h1>
+   <p class="line" id="heroLine"></p>
+   <div class="acts">
+    <a class="btn" id="heroMore" href="#sauce/d"><span class="ko">자세히 보기</span><span class="en">View details</span></a>
+    <a class="btn ghost" href="#buyers"><span class="ko">바이어 문의</span><span class="en">Buyer inquiry</span></a>
+   </div>
+  </div>
+  <div class="ctrl">
+   <button id="prev" type="button" aria-label="이전 소스">‹</button>
+   <span id="dots"></span>
+   <button id="next" type="button" aria-label="다음 소스">›</button>
+   <button id="play" type="button" aria-label="자동 회전 멈춤">❚❚</button>
+  </div>
+ </section>
+
+ <section class="story" id="story">
+  <div class="story-t">
+   <h2 class="tt ko">이 맛은 식당에서 시작했습니다</h2>
+   <h2 class="tt en">It started in a restaurant</h2>
+   <p class="ko">대구 다원천연갈비의 밥상에 오르던 된장찌개와 갈비 양념. 2026 대한민국 한식대가 김주련 대표가 그 손맛을 집에서도, 해외에서도 낼 수 있도록 소스로 옮겼습니다.</p>
+   <p class="en">It began with the doenjang jjigae and galbi marinade served at Dawon Natural Galbi in Daegu, Korea. Kim Ju-ryeon, named a Korean Cuisine Master in 2026, turned that kitchen's flavor into sauces anyone can cook with, at home or abroad.</p>
+  </div>
+  <figure><img src="img/ceo.jpg" alt="대한민국 한식대가 김주련 대표" loading="lazy"><figcaption class="ko">대한민국 한식대가 김주련 대표</figcaption><figcaption class="en">Kim Ju-ryeon, Korean Cuisine Master</figcaption></figure>
+ </section>
+
+ <section class="hist" id="history" aria-label="연혁과 수상">
+  <h2 class="tt ko">걸어온 길</h2><h2 class="tt en">Our history and awards</h2>
+  <div class="hist3">
+   <div><h3 class="ko">연혁</h3><h3 class="en">History</h3><ol class="tl"><li><b>2017</b><span class="ko">KBS 2TV 생생정보 출연</span><span class="en">Featured on KBS 2TV Saengsaeng Information</span></li><li><b>2017</b><span class="ko">코리아 월드푸드 챔피언십 금상</span><span class="en">Gold Prize, Korea World Food Championships</span></li><li><b>2022</b><span class="ko">코리아 월드푸드 챔피언십 우승</span><span class="en">Winner, Korea World Food Championships</span></li><li><b>2026</b><span class="ko">대한민국 한식대가 인증, 김주련 대표</span><span class="en">Certified Korean Cuisine Master, Kim Ju-ryeon</span></li><li><b>2026</b><span class="ko">코리한 한식소스 3종 개발</span><span class="en">KOREHAN three-sauce line developed</span></li></ol></div>
+   <figure class="awimg"><img class="shine" src="img/trophy.jpg" alt="" aria-hidden="true"><img class="ko" src="img/award_ko.jpg" alt="김주련 대표, 2017 코리아 월드푸드 챔피언십 금상, 대구시장상, 군의회상, 대구시 지정 친절음식점, KBS 2TV 생생정보 출연 맛집" loading="lazy"><img class="en" src="img/award_en.jpg" alt="Kim Ju-ryeon. 2017 Korea World Food Championships Gold Prize, Daegu Mayor's Award, County Council Award, Daegu Designated Kind Restaurant, featured on KBS 2TV Saengsaeng Information" loading="lazy"><figcaption class="ko">트로피는 연출 이미지입니다.</figcaption><figcaption class="en">Trophy image is for illustration only.</figcaption></figure>
+  </div>
+ </section>
+
+ <section id="sauces" aria-label="소스 3종"><div id="bands"></div></section>
+
+ <section class="why" aria-label="코리한을 고르는 이유">
+  <h2 class="tt ko">코리한을 고르는 이유</h2><h2 class="tt en">Why KOREHAN</h2>
+  <div class="why3">
+   <div><h3 class="ko">한식대가의 맛</h3><h3 class="en">A master's recipe</h3><p class="ko">식당에서 끓이던 맛을 기준으로 만들었습니다.</p><p class="en">Built on the flavor of a working Korean restaurant kitchen.</p></div>
+   <div><h3 class="ko">쉬운 사용</h3><h3 class="en">Easy to use</h3><p class="ko">재료만 준비하면 소스가 맛을 잡아 줍니다.</p><p class="en">Prepare the ingredients and let the sauce do the seasoning.</p></div>
+   <div><h3 class="ko">넓은 활용도</h3><h3 class="en">Versatile</h3><p class="ko">소스 하나로 네 가지 이상의 요리를 만듭니다.</p><p class="en">Each sauce works across four or more dishes.</p></div>
+  </div>
+ </section>
+
+ <section class="use" id="use">
+  <h2 class="tt ko">한 팩으로 만드는 요리</h2><h2 class="tt en">One sauce, many dishes</h2>
+  <div class="tabs" id="useTabs" role="tablist"></div>
+  <div class="dishes" id="dishes"></div>
+  <p class="note ko">요리 사진은 연출된 이미지입니다.</p><p class="note en">Food images are for illustration only.</p>
+ </section>
+
+ <section class="buy" id="buyers">
+  <h2 class="tt ko">바이어 문의</h2><h2 class="tt en">For buyers</h2>
+  <p class="lead ko">샘플, 납품, 수출 상담을 받습니다. 소비기한, MOQ, 인증은 문의 시 안내합니다.</p>
+  <p class="lead en">We welcome inquiries on samples, supply and export. Shelf life, MOQ and certification are shared on request.</p>
+  <div class="tb"><table>
+   <thead><tr><th scope="col"><span class="ko">제품</span><span class="en">Product</span></th><th scope="col"><span class="ko">용량</span><span class="en">Net weight</span></th><th scope="col"><span class="ko">포장</span><span class="en">Packaging</span></th></tr></thead>
+   <tbody id="spec"></tbody>
+  </table></div>
+  <h3 class="sub ko">포장</h3><h3 class="sub en">Packaging</h3>
+  <div class="boxes">
+   <figure><img src="img/box_set.jpg" alt="소스 3종 세트 박스" loading="lazy"><figcaption class="ko">소스 3종 세트 박스</figcaption><figcaption class="en">Three-sauce gift set</figcaption></figure>
+   <figure><img src="img/box_carton.jpg" alt="수출 카톤" loading="lazy"><figcaption class="ko">수출 카톤</figcaption><figcaption class="en">Export master carton</figcaption></figure>
+  </div>
+  <p class="note ko">포장 디자인 시안입니다. 최종 포장은 생산 전에 확정합니다.</p>
+  <p class="note en">Design concepts. Final packaging is confirmed before production.</p>
+  <h3 class="sub ko">상담 가능한 내용</h3><h3 class="sub en">What we can discuss</h3>
+  <ul class="talk ko"><li>샘플 평가</li><li>시장별 유통</li><li>용량 요청</li></ul>
+  <ul class="talk en"><li>Samples for evaluation</li><li>Distribution by market</li><li>Pack size requests</li></ul>
+  <div class="contact">
+   <p class="ko"><b>김주련 대표</b> 010-9015-9792</p>
+   <p class="en"><b>Kim Ju-ryeon, CEO</b> +82 10 9015 9792</p>
+   <div class="acts">
+    <a class="btn ko" href="tel:+821090159792">전화 문의</a><a class="btn en" href="tel:+821090159792">Call us</a>
+    <a class="btn ghost" href="doc/KOREHAN_Buyer_Proposal.pdf" download><span class="ko">영문 제안서 내려받기 (PDF)</span><span class="en">Download proposal (PDF)</span></a>
+   </div>
+  </div>
+ </section>
+</main>
+
+<footer><span>KOREHAN 코리한</span><span class="ko">대구광역시 달성군 옥포읍 돌미상업로 9, 2층</span><span class="en">9, Dolmi-sangeop-ro, Okpo-eup, Dalseong-gun, Daegu, Korea</span></footer>
+
+<dialog id="sheet" aria-labelledby="sheetName">
+ <button class="x" id="sheetClose" type="button" aria-label="닫기 Close">×</button>
+ <div class="sheet-l">
+  <img id="sheetImg" alt="">
+  <div class="flip" role="group" aria-label="팩 면 선택">
+   <button type="button" data-side="front" class="on"><span class="ko">앞면</span><span class="en">Front</span></button>
+   <button type="button" data-side="back"><span class="ko">뒷면</span><span class="en">Back</span></button>
+  </div>
+ </div>
+ <div class="sheet-r">
+  <h2 id="sheetName"></h2>
+  <p class="sen" id="sheetEn"></p>
+  <p id="sheetLine"></p>
+  <h3 class="ko">이렇게 쓰세요</h3><h3 class="en">How to use</h3>
+  <ol class="steps" id="sheetSteps"></ol>
+  <h3 class="ko">이런 요리에 좋습니다</h3><h3 class="en">Works well in</h3>
+  <div class="mini" id="sheetDishes"></div>
+  <p class="note ko">정확한 사용량과 표시사항은 제품 뒷면을 확인해 주세요.</p>
+  <p class="note en">See the pack for exact amounts and product information.</p>
+  <a class="btn" href="#buyers" id="sheetBuy"><span class="ko">이 소스 문의하기</span><span class="en">Ask about this sauce</span></a>
+ </div>
+</dialog>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
